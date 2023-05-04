@@ -1,0 +1,204 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+.bg-image {
+    background-image: url('../image/cloud.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+.card{
+  box-shadow: 0 3px 4px black;
+}
+  a{
+    text-decoration: none;
+  }
+
+  .getButton{
+     background-color: white;
+     
+  }
+
+  .getButton:hover{
+    background-color: #0dcaf0;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .img{
+   width: 287px;
+   height: 400px;
+  }
+
+  .movieCaption{
+    width: 300px;
+    height: 400px;
+  }
+tr{
+  padding-top: 2rem ;
+}
+label{
+  margin-top: 3rem;
+}
+  td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .bg-img{
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .borderInput{
+    border: 2px solid black;
+  }
+
+  .regLink{
+    text-decoration: none;
+  }
+
+  .Login{
+    width: 19rem; 
+    height: 30rem;
+  }
+
+
+  /* Contact Us */
+    .wrapper {
+      max-width: 350px;
+      min-height: 500px;
+      margin: 80px auto;
+      padding: 40px 30px 30px 30px;
+      background-color: #ecf0f3;
+      border-radius: 15px;
+      box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    }
+  
+    .logo {
+      width: 80px;
+      margin: auto;
+    }
+  
+    .logo img {
+      width: 100%;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+    }
+  
+    .wrapper .name {
+      font-weight: 600;
+      font-size: 1.4rem;
+      letter-spacing: 1.3px;
+      padding-left: 10px;
+      color: #555;
+    }
+  
+    .wrapper .form-field input {
+      width: 100%;
+      display: block;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 1.2rem;
+      color: #666;
+      padding: 10px 15px 10px 10px;
+      /* border: 1px solid red; */
+    }
+  
+    .wrapper .form-field {
+      padding-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    }
+  
+    .wrapper .form-field .fas {
+      color: #555;
+    }
+  
+    .wrapper .btn {
+      box-shadow: none;
+      width: 100%;
+      height: 40px;
+      background-color: #03A9F4;
+      color: #fff;
+      border-radius: 25px;
+      box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+      letter-spacing: 1.3px;
+    }
+  
+    .wrapper .btn:hover {
+      background-color: #039BE5;
+    }
+  
+    .wrapper a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      color: #03A9F4;
+    }
+  
+    .wrapper a:hover {
+      color: #039BE5;
+    }
+  
+    @media(max-width: 380px) {
+      .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+      }
+    }
+
+    .textarea{
+      border: none;
+    }
+    
+    /* animation */
+        #colorfill {
+          position: relative;
+          font-size: 3vw;
+          color: white;
+          -webkit-text-stroke: 0.3vw black;
+          text-transform: uppercase;
+        }
+    
+        #colorfill::before {
+          content: attr(data-text);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          color: white;
+          -webkit-text-stroke: 0vw black;
+          border-right: 2px solid white;
+          overflow: hidden;
+          animation: animate 6s linear infinite;
+        }
+    
+        @keyframes animate {
+    
+          0%,
+          10%,
+          100% {
+            width: 0%;
+          }
+    
+          70%,
+          90% {
+            width: 100%;
+          }
+        }
